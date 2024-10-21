@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* *,
+*:before,
+*:after {
+    box-sizing: inherit;
+} */
+
+/* body {
+    background-color: #99a10050;
+    background-color: #00030050;
+    background-image: linear-gradient(to right, #01022d, #000);
+    background: linear-gradient(to right, #000004e5, #06040478 30%),url(image/pexels-adria-masi-461420600-27962178.jpg) ;
+    background-color: #dad3f8;
+    /* background: linear-gradient(#111, #222); */
+/* background-image: linear-gradient(to left, #dfdf68, #d5d8); */
+/* } */
+
+
+:root {
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very1-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very2-dark-grayish-blue: hsl(217, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 81%);
+    --light-gray-blue12: hsl(210, 46%, 95%);
+    /* background: #f7f7f7; */
+}
+
+
+body {
+    background: #ae445a; 
+} 
+
+.vontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.vontainer .box1 .font-1{
+    background: #f3c331;
+
+
+    background: #fab946;
+}
+.vontainer .box1 .font-2{
+
+    background: #b73b52;
+
+}
+.vontainer .box1 .font-3{
+    
+    background: #749cb5;
+    
+    
+}
+.vontainer .box1{
+    background-color: white;
+    width: 355px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin: 0 20px;
+}
+
+.vontainer .box1 .top{
+    margin-bottom: 10px;
+    text-align: center;
+    height: 120px;
+    clip-path: polygon(0 0, 100% 0, 100% 53%, 49% 100%, 0 53%);
+    color: #fff;
+
+}
+.vontainer .box1 .top .world{
+    font-size: 22px;
+    padding: 7px 0;
+}
+.vontainer .box1 .top p span{
+    font-size: 33px;
+    font-weight: 600;
+    padding: 12px 0 0 0;
+}
+
+.vontainer .box1 .center{
+    text-align: center;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin: 12px 0;
+}
+
+.vontainer .box1 .revese{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top:1px solid #333 ;
+}
+.vontainer .box1 .revese span{
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.vontainer .box1 .revese i{
+    font-size: 23px;
+    color: rgb(3, 91, 37);
+}
+.vontainer .box1 .revese .x{
+    font-size: 23px;
+    color: red;
+}
+
+.vontainer .box1 input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 17px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.vontainer .box1 .one{
+    background: #f3c331;
+}
+.vontainer .box1 .two{
+    background: #b73b52;
+    
+}
+.vontainer .box1 .three{
+    background: #749cb5;
+
+}
+
+
+
+.vontainer .box1 .one:hover{
+    background: #fab946;
+
+
+}
+.vontainer .box1 .two:hover{
+    background: #bd2f49;
+    
+}
+.vontainer .box1 .three:hover{
+    background: #86b1cc;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
